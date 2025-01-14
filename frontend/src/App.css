@@ -1,0 +1,168 @@
+html {
+  height: 100%;
+  /* background-color: cadetblue; */
+}
+
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+.App {
+  height: 100vh;
+  text-align: center;   
+  align-content: center;
+}
+
+.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+  max-width: none;
+}
+
+.user-list {
+  height: 100vh;
+  text-align: center;   
+  align-content: start;
+  margin-top: 20px;
+}
+
+.app-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btn-login {
+  border-radius: 5px;
+  background-color: #7644a5;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.btn-logout-area{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.btn-logout-area svg {
+  width: 30px;
+  height: 30px;  
+}
+
+.btn-logout-area span {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.btn-style1 {
+  background-color: #3b5998;
+}
+
+.btn-style1 {
+  background-color: #55acee;
+}
+
+.form-outline input {
+  border-bottom: 1px solid #aaa !important;
+  border-radius: 0px !important;
+}
+
+.btn-dark {
+  background: #9f9e9e;
+  margin-top: 10px;
+}
+
+.d-flex .btn {
+  margin: 5px;
+}
+
+td {
+  vertical-align: middle;
+  word-wrap: break-word;
+  white-space: pre-line;
+  text-align: left;
+}
+
+th {
+  cursor: pointer;
+}
+
+th svg {
+  width: 15px;
+  height: 15px;
+}
+
+th svg.asc {
+  transform: rotate(0deg);
+}
+
+th svg.desc {
+  transform: rotate(180deg);
+}
+
+.overflow-x-s {
+  overflow-x:auto;
+}
+
+table button {
+  width: 80px;
+}
+
+
+.error-area {
+  display: none;
+  padding-left: 0.75rem;
+}
+
+.has-error .error-area {
+  display: block;
+}
+
+.max-w-300 {
+  max-width: 300px;
+}
+
+.max-w-200 {
+  max-width: 200px;
+}
+
+.min-w-300 {
+  min-width: 300px;
+}
+
+.min-w-200 {
+  min-width: 200px;
+}
+
+.min-w-150 {
+  min-width: 150px;
+}
+
+.min-w-80 {
+  min-width: 80px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.form-area {
+  background: white;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.vh-90 {
+  height: 90vh !important;
+}
+
+.vh-77 {
+  height: 77vh !important;
+}
+
+.vh-66 {
+  height: 66vh !important;
+}
